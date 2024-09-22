@@ -15,7 +15,7 @@ var input = prompt("Masukkan bilangan bulat positif:");
 
 var angka = parseInt(input);
 
-// Memastikan input valid dan menghitung faktorial
+// Memastikan input 
 if (isNaN(angka) || angka < 0) {
   console.log("Harap masukkan bilangan bulat positif.");
 } else {
